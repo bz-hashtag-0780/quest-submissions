@@ -1305,14 +1305,10 @@ pub contract Test: ITest { //Make sure the contract actually implements the ITes
   pub var number: Int
   
   pub fun updateNumber(newNumber: Int) {
-    self.number = 5
+    self.number = newNumber
   }
 
-  pub resource interface IStuff {
-    pub var favouriteActivity: String
-  }
-
-  pub resource Stuff: IStuff {
+  pub resource Stuff: ITest.IStuff {
     pub var favouriteActivity: String
 
     init() {
