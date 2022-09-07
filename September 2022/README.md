@@ -1,4 +1,4 @@
-0x4742010dbfe107da
+Feel free to send testnet FUSD to support: 0x4742010dbfe107da
 
 # We are back!
 
